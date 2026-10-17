@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/blood-requests/public";
+const API_URL = `${import.meta.env.VITE_API_URL}/blood-requests`;
 
 function BloodRequestList() {
   const [requests, setRequests] = useState([]);
