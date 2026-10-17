@@ -1079,3 +1079,14 @@ footer {
     animation-duration: 0.01ms !important;
   }
 }
+.back-home-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #c62828;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-home-link:hover {
+  text-decoration: underline;
+}

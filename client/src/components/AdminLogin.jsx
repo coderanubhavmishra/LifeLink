@@ -40,7 +40,9 @@ function AdminLogin() {
   };
 
   return (
+    
     <main className="admin-page">
+      <a href="/" className="back-home-link">← Back to Public Home</a>
       <section className="admin-card">
         <div className="admin-logo">LL</div>
         <h1>LifeLink Admin</h1>
